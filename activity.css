@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.menu{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.menu-button{
+    text-decoration:none;
+    padding: 10px 40px;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    font-weight: 700;
+    color: black;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.Wrapper{
+    height: 1000px;
+    width: 100%;
+    background-color: gray;
+}
+.Content{
+    height: 600px;
+    width: 100%;
+    background-color: buttontext;
+}
+h1{
+    text-align: center;
+}
+
+.Content .ONE{
+    height: 300px;
+    width: 40%;
+    background-color: blue;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+    background-image: url(rhcp.jpg);
+    background-size: cover;
+}
+.Content .ONE:hover{
+    transform: rotate(180deg) scale(3);
+}
+.Content .TWO{
+    height: 300px;
+    width: 30%;
+    background-color: red;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(anime.jpg);
+    background-size: cover;
+}
+.Content .TWO:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .THREE{
+    height: 300px;
+    width: 30%;
+    background-color: burlywood;
+    float: left;
+}
+.Content .FOUR{
+    height: 300px;
+    width: 30%;
+    background-color: green;
+    float: left;
+}
+.Content .FIVE{
+    height: 300px;
+    width: 30%;
+    background-color: violet;
+    float: left;
+}
+.Content .SIX{
+    height: 300px;
+    width: 30%;
+    background-color: teal;
+    float: left;
+}
+.Content .SIX{
+    height: 300px;
+    width: 30%;
+    background-color: teal;
+    float: left;
+}
+.Content .SEVEN{
+    height: 300px;
+    width: 30%;
+    background-color: tomato;
+    float: left;
+}
+.Content .EIGHT{
+    height: 300px;
+    width: 30%;
+    background-color: turquoise;
+    float: left;
+}
