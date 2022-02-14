@@ -13,17 +13,17 @@ h2{
 }
 .top-banner{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     padding-right: 2%;
 }
 .Ambition{
     display: flex;
-    margin-bottom: 200px;
-    padding-right: 2%;
+    margin-bottom: 150px;
+    padding-right: 20%;
 }
 .Two-Experience{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     padding-right: 2%;
 }
 .half-width{
@@ -48,6 +48,7 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
+    padding-right: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
 }
