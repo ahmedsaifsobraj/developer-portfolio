@@ -6,10 +6,12 @@ h1{
     font-size: 50px;
 }
 .orange{
-    color: orangered;
+    color: #42e97950;
 }
 section{
     display: flex;
+    margin-bottom: 200px;
+    padding-right: 2%;
 }
 .half-width{
     width: 50%;
